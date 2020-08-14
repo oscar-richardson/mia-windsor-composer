@@ -287,7 +287,7 @@ a:hover {
 }
 
 .text--20px-responsive {
-    font-size: calc(16px + (20 - 16) * ((100vw - 360px) / (1366 - 360)));
+    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1366 - 320)));
 }
 
 .text--spaced {
