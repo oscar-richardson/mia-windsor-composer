@@ -226,6 +226,31 @@ a:hover {
     }
 }
 
+.social-media a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #D3D3D3;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    background: orange;
+}
+
+.social-media a:hover>i {
+    transform: scale(1.6);
+}
+
+.social-media a i {
+    transition: 0.4s all;
+}
+
 
 /*nav*/
 
